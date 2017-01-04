@@ -18,4 +18,4 @@ I started to make the navigation bar using list elements class then linked them 
 
 (progression of contact )
 
-I started the contact page by researching a static form and looking at how I was going to create a simple form where the user can input their name and details into a form with a submit button on my website. I started by created the different text areas on the html doc by creating a class then using labels taking roughly about 2-3 hours. CSS was to mainly add in a black border around the form and to set up the layout on the page.
+I started the contact page by researching a static form and looking at how I was going to create a simple form where the user can input their name and details into a form with a submit button on my website. I started by created the different text areas on the html doc by creating a class then using labels taking roughly about 2-3 hours. CSS was to mainly add in a black border around the form and to set up the layout on the page using padding and different layout elements 
