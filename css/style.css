@@ -59,10 +59,10 @@ article {
 
 form {
   border: solid black 5px;
-  padding: 5em;
+  padding: 1em;
   width: 40%;
   min-width: 15em;
-  max-width: 38.5em;
+  max-width: 34.5em;
 }
 
 .form-title {
@@ -103,7 +103,8 @@ h2 {
 }
 
 .heading-cv {
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid black;
+  font-size: 1.7rem;
 }
 
 p {
@@ -138,4 +139,9 @@ p {
 
 .col-3 {
   flex: 3;
+}
+
+p2 {
+  font-size: 1.4rem;
+  font-weight: bold;
 }
