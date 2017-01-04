@@ -1,0 +1,59 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family:'roboto', roboto;
+}
+body {
+}
+.nav {
+  list-style-type:none;
+  display:flex;
+  flex-wrap: nowrap;
+  width:100%; /* width accross the screen */
+  background: white;
+}
+.navItem, .navItem a {
+  display:inline-block;
+  flex-grow: 1;
+}
+.navItem a {
+  width:100%;
+  padding-top:20px;
+  padding-bottom:20px;
+  color: black;
+  text-decoration:none;
+  text-align:center;
+  font-weight:600; /* makes font bold*/
+  font-size:14px;
+}
+.navItem a:hover { /* allows user to see a grey background when mouse is over the navi bar */
+  background: grey;
+}
+
+div.container {
+    width: 100%;
+    border: 1px solid black;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+nav {
+  float: left;
+  margin: 160px;
+  margin: 0;
+  padding: 1em;
+}
+
+article {
+   margin-left: 200px;
+   border-top: 1px solid black;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   border-bottom: 1px solid black;
+   padding: 1em;
+}
