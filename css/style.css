@@ -1,7 +1,7 @@
 *{
   margin:0px;
   padding:0px;
-  font-family:'roboto', sans-serif;;
+  font-family:'roboto', sans-serif;
 }
 body {
 }
@@ -59,7 +59,7 @@ article {
 
 form {
   border: solid black 5px;
-  padding: 1em;
+  padding: 5em;
   width: 40%;
   min-width: 15em;
   max-width: 38.5em;
@@ -81,6 +81,61 @@ textarea {
 fieldset {
   width: inherit;
 }
-.option-list {
-  display: inline-block;
+
+* {
+  box-sizing: border-box;
+}
+
+.site-wrapper {
+  margin: 0 auto;
+  max-width: 1024px;
+  // outline: 1px solid #ddd;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+
+h2 {
+  font-size: 35;
+  line-height: 2.4rem;
+  margin: 0 0 1.4rem 0;
+  padding-bottom: 1rem;
+}
+
+.heading-cv {
+  border-bottom: 2px solid #ddd;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.section-cv {
+  // border: 1px solid blue;
+  margin: 5rem 0;
+}
+
+.section-row {
+  display: flex;
+  margin-bottom: 2.4rem;
+}
+
+.section-col {
+  flex: 1;
+  margin-right: 10px;
+  // border: 1px solid red;
+ }
+
+.col-1 {
+  flex: 0;
+  flex-basis: 5rem;
+}
+
+.col-2 {
+  flex: 8;
+}
+
+.col-3 {
+  flex: 3;
 }
