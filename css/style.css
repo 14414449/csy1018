@@ -10,7 +10,6 @@ body {
   display:flex;
   flex-wrap: nowrap;
   width:100%; /* width accross the screen */
-  background: white;
 }
 .navItem, .navItem a {
   display:inline-block;
