@@ -149,3 +149,15 @@ p2 {
   font-size: 1.4rem;
 
 }
+
+footer1 {  /* this controls the contact page footer*/
+    padding: 1em;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    font-size: 1rem;
+  }
