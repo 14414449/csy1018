@@ -5,7 +5,7 @@
 }
 body {
 }
-.nav {
+.nav {  /* controls navigation bar */
   list-style-type:none;
   display:flex;
   flex-wrap: nowrap;
@@ -15,7 +15,7 @@ body {
   display:inline-block;
   flex-grow: 1;
 }
-.navItem a {
+.navItem a { /* navigation bar */
   width:100%;
   padding-top:20px;
   padding-bottom:20px;
@@ -25,36 +25,40 @@ body {
   font-weight:600; /* makes font bold*/
   font-size:14px;
 }
-.navItem a:hover { /* allows user to see a grey background when mouse is over the navi bar */
+.navItem a:hover { /* (navigation bar) allows user to see a grey background when mouse is over the navi bar */
   background: grey;
-}
-
-div.container {
-    width: 100%;
-    border: 1px solid black;
 }
 
 header, footer {
     padding: 1em;
     color: white;
     background-color: black;
-    clear: left;
     text-align: center;
+
 }
 nav {
   float: left;
-  margin: 160px;
-  margin: 0;
+  margin-right: 50%;
+  height: 100vh;
   padding: 1em;
+  border-top: 1px solid yellow;
+  border-left: 1px solid yellow;
+  border-right: 1px solid yellow;
+  border-bottom: 1px solid yellow;
 }
 
 article {
-   margin-left: 200px;
-   border-top: 1px solid black;
-   border-left: 1px solid black;
-   border-right: 1px solid black;
-   border-bottom: 1px solid black;
+   margin-left: 50%;
+   border-top: 1px solid yellow;
+   border-left: 1px solid yellow;
+   border-right: 1px solid yellow;
+   border-bottom: 1px solid yellow;
    padding: 1em;
+   height: 100vh;
+ }
+
+h3 {  /* allows the positioning to the left of the div */
+  position: absolute;
 }
 
 form {
@@ -143,5 +147,5 @@ p {
 
 p2 {
   font-size: 1.4rem;
-  
+
 }
