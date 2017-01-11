@@ -32,8 +32,7 @@ body {
 
 header, footer {   /* Controls the header and footer on the index page */
     padding: 1em;
-    color: white;
-    background-color: black;
+    color: black;
     text-align: center;
 
 }
@@ -42,20 +41,13 @@ nav {    /* ontrols the nav on the index page*/
   margin-right: 50%;
   height: 100vh;
   padding: 1em;
-  border-top: 1px solid yellow;
-  border-left: 1px solid yellow;
-  border-right: 1px solid yellow;
-  border-bottom: 1px solid yellow;
 }
 
 article {    /* controls the article on the index page*/
    margin-left: 50%;
-   border-top: 1px solid yellow;
-   border-left: 1px solid yellow;
-   border-right: 1px solid yellow;
-   border-bottom: 1px solid yellow;
    padding: 1em;
    height: 100vh;
+   position: absolute;
  }
 
 h3 {  /* allows the positioning to the left of the div */
