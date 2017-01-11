@@ -45,6 +45,7 @@ footer {
   bottom: 0;
   height: 100px;
   width: 100%;
+  overflow:hidden;
 }
 nav {    /* ontrols the nav on the index page*/
   float: left;
