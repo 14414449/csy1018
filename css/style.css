@@ -30,11 +30,21 @@ body {
   background: grey;
 }
 
-header, footer {   /* Controls the header and footer on the index page */
+header {   /* Controls the header and footer on the index page */
     padding: 1em;
     color: black;
     text-align: center;
+}
 
+footer {
+  padding: 1em;
+  color: black;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
 }
 nav {    /* ontrols the nav on the index page*/
   float: left;
