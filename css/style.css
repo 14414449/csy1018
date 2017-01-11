@@ -161,3 +161,11 @@ footer-contact {  /* this controls the contact page footer*/
     width: 100%;
     font-size: 1rem;
   }
+.myImage {
+  float: left;
+}
+.paragraph {
+  float: left;
+  text-align: left;
+  color: black;
+}
