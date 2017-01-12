@@ -145,11 +145,6 @@ p {
   flex: 3;
 }
 
-p2 {
-  font-size: 1.4rem;
-
-}
-
 footer-contact {  /* this controls the contact page footer*/
     padding: 1em;
     color: white;
